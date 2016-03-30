@@ -14,4 +14,4 @@ This toolbox include:
 
 Welcome to build this repo with me! :)
 
-Any questions, no hesitate to [email](wmustc@163.com) me.
+Any questions, no hesitate to email (wmustc@163.com) me.
