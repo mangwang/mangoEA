@@ -1,13 +1,13 @@
 % Execute the whole process
-clear;clc;close all;
+clear; clc; close all;
 
 % set parameters
 func_names = {'Sphere', 'Schwefel-102', 'Rotated-Elliptic', 'Rosenbrock', ...
     'Rotated-Ackley', 'Rastrigin', 'Rotated-Rastrign', 'Rotated-Weierstrass'};
 algo_names = {'GA'};
 
-% dims = [2, 10, 30, 50];
-dims = 2;
+dims = [2, 10, 30, 50];
+% dims = 2;
 nFunctions = length(func_names);
 nAlgos = length(algo_names);
 runs_normal = 4;
@@ -38,6 +38,7 @@ for dim = dims
     end
 end
 delete(gcp);
+
 
 % Calculate evolvability
 % for dim = dims
